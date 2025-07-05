@@ -1,0 +1,68 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); 
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: #76CD26;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+ */
+*{
+  font-family: "Montserrat", sans-serif; 
+  font-weight:600;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+
+}
+.cl-internal-df7v37
+{
+  display:none;
+}
+body{
+  margin: 2px;
+}
+
+.cl-formFieldInput {
+  height: 45px !important;
+  border-radius: 2px !important;
+  border: 1px solid #9c9c9c !important;
+  box-shadow: none !important;
+}
+
+.cl-formButtonPrimary {
+  height: 45px !important;
+  background-color: var(--color-primary) !important;
+  color: white !important;
+  box-shadow: none !important;
+  border-radius: 2px !important;
+}
+
+.cl-cardBox{
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  z-index: 1 !important;
+  border: 1px solid #9c9c9c !important;
+}
