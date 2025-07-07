@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: #A93400;
+  --color-secondary:#7EACB5;
+  --color-tertiary: #FADFA1;
+  --color-quaternary: #C96868;
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Montserrat", sans-serif;
+   
+}
+
+input {
+  height: 45px !important;
+  border-radius: 2px !important;
+  box-shadow: none !important;
+  border: 1px solid #000 !important;
+}
+
+button {
+  height: 45px !important;
+  border-radius: 2px !important;
+  box-shadow: none !important;
+}
+
+.cl-cardBox {
+  box-shadow: none !important;
+}
+ 
+
+
+.cl-internal-1dauvpw {
+  display:none!important;
+  border:none!important;
+  background-color: #fff;
+}
