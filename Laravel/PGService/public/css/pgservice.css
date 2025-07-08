@@ -1,0 +1,19 @@
+.btn-pgservice {
+    color: #4481eb!important;
+    background-color: #fff!important;
+    border-color: #4481eb!important;
+}
+
+.btn-pgservice:hover {
+    color: #fff!important;
+    background-color: #4481eb!important;
+    border-color: #4481eb!important;
+}
+
+.nav-link {
+    color: #4481eb!important;
+}
+
+.nav-link:hover {
+    color: #fff!important;
+}
