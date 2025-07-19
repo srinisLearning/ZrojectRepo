@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+
+:root  {
+  --background: 222 100% 95%;
+  --foreground: 222 5% 10%;
+  --card: 222 50% 90%;
+  --card-foreground: 222 5% 15%;
+  --popover: 222 100% 95%;
+  --popover-foreground: 222 100% 10%;
+  --primary: 222 32.4% 57.6%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 222 30% 70%;
+  --secondary-foreground: 0 0% 0%;
+  --muted: 184 30% 85%;
+  --muted-foreground: 222 5% 40%;
+  --accent: 184 30% 80%;
+  --accent-foreground: 222 5% 15%;
+  --destructive: 0 100% 50%;
+  --destructive-foreground: 222 5% 90%;
+  --border: 222 30% 54%;
+  --input: 222 30% 50%;
+  --ring: 222 32.4% 57.6%;
+  --radius: 0.3rem;
+}
+.dark  {
+  --background: 222 50% 10%;
+  --foreground: 222 5% 90%;
+  --card: 222 50% 10%;
+  --card-foreground: 222 5% 90%;
+  --popover: 222 50% 5%;
+  --popover-foreground: 222 5% 90%;
+  --primary: 222 32.4% 57.6%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 222 30% 20%;
+  --secondary-foreground: 0 0% 100%;
+  --muted: 184 30% 25%;
+  --muted-foreground: 222 5% 60%;
+  --accent: 184 30% 25%;
+  --accent-foreground: 222 5% 90%;
+  --destructive: 0 100% 50%;
+  --destructive-foreground: 222 5% 90%;
+  --border: 222 30% 50%;
+  --input: 222 30% 50%;
+  --ring: 222 32.4% 57.6%;
+  --radius: 0.3rem;
+}
+
+
+*{
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 500;
+}
+
+.home-parent{
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+ background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+ background-image: linear-gradient(-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%);
+}
+
+
+
+.cl-cardBox {
+  box-shadow: none;
+}
+
+.auth-parent input {
+   height: 40px !important;
+   border: 1px solid #828282 !important;
+   border-radius: 2px !important;
+   box-shadow: none !important;
+}
+
+.cl-formButtonPrimary {
+  height: 40px !important;
+  border-radius: 2px !important;
+  box-shadow: none !important;
+  background-color: black !important;
+}
+
+
+table{
+  margin-top: 20px !important;
+  border: 1px solid #828282 !important;
+}
+
+.cl-internal-df7v37{
+  display: none !important;
+}
